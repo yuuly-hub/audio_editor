@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<export_presets>
+  <export_settings>
+    <name>Для YouTube</name>
+    <file_format>mp3</file_format>
+    <bitrate_kbps>192</bitrate_kbps>
+    <sample_rate>44100</sample_rate>
+  </export_settings>
+  <export_settings>
+    <name>Для телефона</name>
+    <file_format>mp3</file_format>
+    <bitrate_kbps>128</bitrate_kbps>
+    <sample_rate>44100</sample_rate>
+  </export_settings>
+  <export_settings>
+    <name>Студийное качество</name>
+    <file_format>wav</file_format>
+    <bitrate_kbps>1411</bitrate_kbps>
+    <sample_rate>48000</sample_rate>
+  </export_settings>
+</export_presets>

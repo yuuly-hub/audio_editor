@@ -1,0 +1,115 @@
+[
+    {
+        "name": "Подкаст выпуск 1",
+        "sample_rate": 44100,
+        "markers": [
+            {
+                "name": "Начало темы",
+                "time": 15.5
+            }
+        ],
+        "tracks": [
+            {
+                "name": "Голос",
+                "volume": 85,
+                "muted": false,
+                "clips": [
+                    {
+                        "name": "Вступление",
+                        "file_path": "voice_intro.wav",
+                        "start": 0.0,
+                        "duration": 15.5,
+                        "effects": [
+                            {
+                                "type": "fade",
+                                "fade_type": "in",
+                                "seconds": 2.0
+                            },
+                            {
+                                "type": "volume",
+                                "gain_db": 3.0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Основная часть",
+                        "file_path": "voice_main.wav",
+                        "start": 15.5,
+                        "duration": 600.0,
+                        "effects": []
+                    }
+                ]
+            },
+            {
+                "name": "Музыка",
+                "volume": 40,
+                "muted": false,
+                "clips": [
+                    {
+                        "name": "Фоновая музыка",
+                        "file_path": "music.mp3",
+                        "start": 0.0,
+                        "duration": 615.5,
+                        "effects": [
+                            {
+                                "type": "volume",
+                                "gain_db": -12.0
+                            },
+                            {
+                                "type": "fade",
+                                "fade_type": "out",
+                                "seconds": 5.0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Демо песни",
+        "sample_rate": 48000,
+        "markers": [
+            {
+                "name": "Припев",
+                "time": 36.0
+            }
+        ],
+        "tracks": [
+            {
+                "name": "Вокал",
+                "volume": 90,
+                "muted": false,
+                "clips": [
+                    {
+                        "name": "Куплет 1",
+                        "file_path": "vocal.wav",
+                        "start": 4.0,
+                        "duration": 32.0,
+                        "effects": [
+                            {
+                                "type": "echo",
+                                "delay_ms": 300,
+                                "decay": 0.4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Гитара",
+                "volume": 70,
+                "muted": true,
+                "clips": [
+                    {
+                        "name": "Гитарный рифф",
+                        "file_path": "guitar.wav",
+                        "start": 0.0,
+                        "duration": 36.0,
+                        "effects": []
+                    }
+                ]
+            }
+        ]
+    }
+]
